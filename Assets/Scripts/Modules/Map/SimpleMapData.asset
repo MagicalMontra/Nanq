@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2f0e7a09319024481b7526ef8e4bef, type: 3}
+  m_Name: SimpleMapData
+  m_EditorClassIdentifier: 
+  floorUnit: 4
+  sizeX: 16
+  sizeY: 16
+  blockDatas:
+  - identifier: dirt
+    prefab: {fileID: -825058483473830592, guid: 61b470689fcd5154cae9ceda04a7d3b8, type: 3}
+    category: 0
+  - identifier: dirt_rocky
+    prefab: {fileID: -1634425457911873510, guid: 84a4e51402cc08c4e8ada313fd08f6c1, type: 3}
+    category: 0
