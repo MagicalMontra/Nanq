@@ -1,13 +1,12 @@
-﻿using System.Collections.Generic;
-using SETHD.Utilis;
-using UnityEditor;
+﻿using VContainer;
 using UnityEngine;
-using VContainer;
+using SETHD.Utilis;
 using VContainer.Unity;
+using System.Collections.Generic;
 
 namespace SETHD.FantasySnake.Map
 {
-    public class SimpleMapProvider : LifetimeScope
+    public class SimpleMapProviderScope : LifetimeScope
     {
         [SerializeField]
         private GameObject mapParent;
