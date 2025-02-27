@@ -1,17 +1,20 @@
 {
-    "name": "Map",
-    "rootNamespace": "SETHD.FantasySnake.Map",
+    "name": "Utilis.Editor",
+    "rootNamespace": "SETHD.Utilis.Editor",
     "references": [
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
         "GUID:b4d589b85f5f997439ec602ff5ebe71c"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
     "versionDefines": [],
     "noEngineReferences": false
 }
