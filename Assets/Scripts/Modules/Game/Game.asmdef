@@ -1,0 +1,26 @@
+{
+    "name": "Game",
+    "rootNamespace": "SETHD.FantasySnake.Game",
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:77aea589fe3f34fa883d9f7e26eee12e",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:b4d589b85f5f997439ec602ff5ebe71c",
+        "GUID:d8c8f9976479661488e04607f3f9f50b",
+        "GUID:61f39486de733cf47a88168e7727902b",
+        "GUID:319abb35fa8b83c40860dee444ef5b48",
+        "GUID:8ef438b3fe460ac46a839aacb6ca225e",
+        "GUID:a7ddc448549b36e409bf6c977e682a83",
+        "GUID:6e69a18bc82cbff43817acc0c4d8f0a2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

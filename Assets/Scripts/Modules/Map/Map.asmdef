@@ -3,7 +3,10 @@
     "rootNamespace": "SETHD.FantasySnake.Map",
     "references": [
         "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
-        "GUID:b4d589b85f5f997439ec602ff5ebe71c"
+        "GUID:77aea589fe3f34fa883d9f7e26eee12e",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:b4d589b85f5f997439ec602ff5ebe71c",
+        "GUID:8ef438b3fe460ac46a839aacb6ca225e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
