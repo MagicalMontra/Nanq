@@ -8,7 +8,8 @@ namespace SETHD.Utilis
     {
         public async ValueTask InvokeAsync<T>(T command, PublishContext context, PublishContinuation<T> next) where T : ICommand
         {
-            Debug.Log($"Start command {typeof(T)}");	
+            Debug.Log($"Start command {typeof(T)}");
+            Debug.Log(command.ToString());
             await next(command, context);		
             Debug.Log($"End command {typeof(T)}");
         }
