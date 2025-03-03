@@ -1,0 +1,4 @@
+1. Had some problem with vContainer, first of all vcontainer is not really an extensive DI framework like a extenject since it lacks all sort of way to resolve things from child container and when resolve if you are trying to resolve something within its installing phase, you just can't. had to wait for some dependency to finish first, especially on a dependency that resides inside a child container.
+2. VitalRouter is decent but when you are trying to use it with vContainer it becomes compilcated. probably UniRx would be better.
+3. I was thinking halfway when I was doing this that maybe if I can use some other DI framework that has more community support, it would be less frustrating. vContainer documentation is sort of lackluster.
+4. About gameplay code quality would be worse than I hoped for because I wasted my time trying to figuring out with somw workaround with this DI framework.  
